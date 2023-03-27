@@ -1,0 +1,1 @@
+For loops are advantageous when the known number of iterations are known ahead of time. While loops are better when it is unknown. In most scenarios both can be used for the same purpose.
