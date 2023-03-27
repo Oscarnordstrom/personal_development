@@ -1,3 +1,5 @@
 tmp/*
 *.out
 *.exe
+.vscode/
+tmp
