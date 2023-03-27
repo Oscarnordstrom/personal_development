@@ -14,4 +14,5 @@ int main() {
     int z2 = rand();
 
     std::cout << z1 << " " << z2 << std::endl;
+    return -1;
 }
