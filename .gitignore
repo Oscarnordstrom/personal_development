@@ -3,3 +3,6 @@ tmp/*
 *.exe
 .vscode/
 tmp
+target/
+*lock
+rust/playground/
