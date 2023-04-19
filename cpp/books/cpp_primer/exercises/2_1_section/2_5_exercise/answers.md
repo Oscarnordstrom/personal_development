@@ -1,0 +1,4 @@
+- (a): 'a' and L'a' are character and wide character respectively. "a" and L"a" are strings, and therefore take up double the size of the characters. 
+- (b): 10 is a literal integer, 10u is unsigned. 10L is a long. 012 is a octate representation of 10. 0xC is a hexadecimal representation.
+- (c): 3.14 is a literal double, 3.14f is a float, 3.14L is a long double.
+- (d): 10 is a literal integer, 10u is an unsigned integer, 10. is a double, 10e-2 is a double. 

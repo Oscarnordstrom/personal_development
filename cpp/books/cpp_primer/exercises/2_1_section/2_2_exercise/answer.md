@@ -1,0 +1,3 @@
+- Rate: Float since the rate does not usually have more precision than 6 digits.
+- Principal: long double, as they might be decimal places. We need to keep this primitive type viable for large numbers that also include decimals.
+- Principal: long double, as they might be decimal places. We need to keep this primitive type viable for large numbers that also include decimals.
