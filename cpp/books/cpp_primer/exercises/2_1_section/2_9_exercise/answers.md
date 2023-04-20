@@ -1,0 +1,4 @@
+- (a): You are not allowed to declare a variable in an operation.
+- (b): You are not allowed to instance an integer with a floating point this way.
+- (c): Not possible, you need a comma between the variables. One variable has to be declared first.
+- (d): This is possible, but the value 3.14 will be truncated to 3. 

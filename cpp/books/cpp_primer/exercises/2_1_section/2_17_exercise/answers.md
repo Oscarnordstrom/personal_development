@@ -1,0 +1,1 @@
+It prints out 10 10

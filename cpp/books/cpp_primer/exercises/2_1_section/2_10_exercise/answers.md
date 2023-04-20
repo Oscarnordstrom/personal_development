@@ -1,0 +1,1 @@
+The string type objects will only contain the end of string escape character. The int will be instanced as 0.

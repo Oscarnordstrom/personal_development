@@ -1,0 +1,1 @@
+The program is valid, and the loop will execute 10 times. This is because the `i` within the for loop scope is not the same as the `i` declared before the for loop. The final `i` printed is part of the same scope as the first `i` declared.

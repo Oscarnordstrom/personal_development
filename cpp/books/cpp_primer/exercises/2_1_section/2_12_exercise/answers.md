@@ -1,0 +1,5 @@
+- (a): valid
+- (b): invalid
+- (c): valid
+- (d): valid
+- (e): invalid
