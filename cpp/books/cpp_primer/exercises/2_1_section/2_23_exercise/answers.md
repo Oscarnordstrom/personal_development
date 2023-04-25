@@ -1,0 +1,1 @@
+No it is not possible. The system is not able to track which memory addresses are valid or not since the program might free up those memory slots at a later time making it invalid without recording this event in the pointer.
