@@ -1,0 +1,1 @@
+It is legal. c will be a const char reference. 

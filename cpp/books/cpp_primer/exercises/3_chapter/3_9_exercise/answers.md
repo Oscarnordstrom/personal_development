@@ -1,0 +1,1 @@
+It is legal, but undefined behaviour. This is because the default instance of a string, which only contains the end escape  charcter.
