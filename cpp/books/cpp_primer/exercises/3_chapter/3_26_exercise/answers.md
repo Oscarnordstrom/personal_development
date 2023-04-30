@@ -1,0 +1,1 @@
+The last mentioned variant may risk overflow if both elements together for a larger number than what the type can hold. The first variant gurantees to be within the range of possible values.
