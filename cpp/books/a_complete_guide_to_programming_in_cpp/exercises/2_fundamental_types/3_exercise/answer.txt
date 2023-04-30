@@ -1,6 +1,0 @@
-char z(500); 
-double he's(1.2E+5);
-unsigned char ch = '\201';
-unsigned size(40000);
-int a(2.5);
-int b = '?';
