@@ -1,0 +1,1 @@
+Both pointers contain memory addresses. Difference makes sense because then the "distance" from a->b is calculated. Adding will just point at any memory address.

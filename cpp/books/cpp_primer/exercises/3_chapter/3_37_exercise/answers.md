@@ -1,0 +1,1 @@
+Prints the characters in character array `ca`. Terminates when it encounters the null pointer in the end.
