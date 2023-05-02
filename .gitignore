@@ -6,3 +6,4 @@ tmp
 target/
 *lock
 rust/playground/
+.DS_STORE
