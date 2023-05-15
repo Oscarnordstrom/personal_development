@@ -1,0 +1,1 @@
+Both apply the same operation to the object, but the difference lies in which version of the value is returned. The prefix returns the value that has been modified, while postfix returns a copy of the unmodified value.

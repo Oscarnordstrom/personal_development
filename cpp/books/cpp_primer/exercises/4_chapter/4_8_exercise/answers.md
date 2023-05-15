@@ -1,0 +1,3 @@
+- AND: Relational operator, checks if both objects are evaluated as `true` else this operand is evaluated as `false`
+- OR: Same as above, but evaluates as `true` if either of objects are true, else `false`.
+- ==: Same as above, but evaluates as `true` when both objects are evaluated as being the same, Else `false`.

@@ -1,0 +1,1 @@
+The program will exhibit undefined behaviour. It will print the incremented value, and therefore the last printed element will be undefined. This is because we are printing an index outside of the defined range.

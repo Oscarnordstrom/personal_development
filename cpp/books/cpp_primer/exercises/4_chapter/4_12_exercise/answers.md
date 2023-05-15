@@ -1,0 +1,1 @@
+Logical expressions are evaluated from left to right. Firstly, it will check whether `i` is equal to `j`. The last part of the expression, will evaluate whether k is larger than `1` as the bool returned by `i != j` will be cast into an integer.
