@@ -1,0 +1,1 @@
+It would not be guranteed to be a type with at least 32 bits.
