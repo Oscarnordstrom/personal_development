@@ -1,0 +1,1 @@
+It casts the result from the divison j/i to a double.
