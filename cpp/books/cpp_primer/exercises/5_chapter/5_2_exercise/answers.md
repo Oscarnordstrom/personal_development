@@ -1,0 +1,1 @@
+When we need use several statements in a single iteration of a loop.

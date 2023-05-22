@@ -1,0 +1,1 @@
+A null statement is a statement that does nothing. An example of usage could be in a while loop waiting for a certain value from input.
