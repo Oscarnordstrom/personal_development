@@ -1,0 +1,3 @@
+- Arguments: These are the actual values or expressions that are passed to a function or method when it is called. They represent the data that the function will work with during its execution.
+
+- Parameters: Parameters are variables or placeholders declared in the function or method definition. They specify the type and number of values the function expects to receive when it is called. Parameters act as local variables within the function, and their values are assigned based on the arguments provided during the function call.
