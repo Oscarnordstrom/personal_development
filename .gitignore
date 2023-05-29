@@ -7,3 +7,5 @@ target/
 *lock
 rust/playground/
 .DS_STORE
+main
+*.plist
