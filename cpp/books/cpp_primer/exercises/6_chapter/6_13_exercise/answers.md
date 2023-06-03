@@ -1,0 +1,1 @@
+f(T) copies the type T, while f(T&) takes in a reference to an object of type T.

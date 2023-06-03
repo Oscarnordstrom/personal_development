@@ -1,0 +1,3 @@
+- const string &s: We do not want to change the underlying string when finding a char.
+- char c is smaller than a reference, therefore more performant to copy. 
+- Occurs since we want to return how many occurences from the function.

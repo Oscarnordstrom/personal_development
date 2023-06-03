@@ -1,0 +1,3 @@
+- A parameter is a variable that contains the value of function arguments. 
+- A local variable only exists in a specific scope and is dropped after a specific scope ends. 
+- A local `static` variable is similar to a local variable, but is not dropped after the scope ends. 

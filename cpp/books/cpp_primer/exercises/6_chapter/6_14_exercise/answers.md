@@ -1,0 +1,1 @@
+A parameter should be a reference when we want to modify the object, while a parameter should not be a reference if we need to perform some type of calculation that we do not want to persist in the original object.
