@@ -1,0 +1,4 @@
+- (a) Illegal. Too many arguments for the function definition.
+- (b) Legal. "abcda" is a c style array of characters, which will become a string inside the function.
+- (c) Legal. 66 will be cast to a double.
+- (d) Legal. The float will be cast to an integer.
