@@ -1,0 +1,1 @@
+If a negative number is passed, it will iterate forever.

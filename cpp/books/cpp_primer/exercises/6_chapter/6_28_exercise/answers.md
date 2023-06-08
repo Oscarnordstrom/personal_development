@@ -1,0 +1,1 @@
+It is a pointer to a const string.

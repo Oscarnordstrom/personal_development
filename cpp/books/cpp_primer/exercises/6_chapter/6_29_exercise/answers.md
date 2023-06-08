@@ -1,0 +1,1 @@
+Yes, if the object in each index is large it is costly to copy it in the loop.
