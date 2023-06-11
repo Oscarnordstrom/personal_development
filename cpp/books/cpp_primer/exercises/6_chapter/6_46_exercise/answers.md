@@ -1,0 +1,1 @@
+The method size() is ran run-time, which makes it impossible to define them it constexpr.

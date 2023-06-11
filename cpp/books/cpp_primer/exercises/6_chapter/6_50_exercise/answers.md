@@ -1,0 +1,4 @@
+- f(2.56, 42): void f(double, double)
+- f(42): void f(int)
+- f(42, 0): void f(int, int)
+- f(2.56, 3.14): void f(double, double)

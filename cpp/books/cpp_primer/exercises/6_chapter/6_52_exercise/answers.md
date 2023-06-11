@@ -1,0 +1,2 @@
+- (a) manip('a', 'z'); Rank 3, promotion.
+- (b) manip(55.4, dobj); Rank 4, Arithmetic conversion.

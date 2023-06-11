@@ -1,0 +1,2 @@
+- (a): ff is allowed. 
+- (b): init is not allowed, the rest of the parameters require default arguments.

@@ -1,0 +1,1 @@
+It will exit the program when `cin` reaches error state, when the input is read. It is not a good use as `cin` will always evaluate as false.

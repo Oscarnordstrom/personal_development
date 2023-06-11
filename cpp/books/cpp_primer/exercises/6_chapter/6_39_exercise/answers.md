@@ -1,0 +1,3 @@
+- (a): Legal. Non ambiguous calls. Top level consts are ignored.
+- (b): Illegal, ambiguous calls.
+- (c): Legal. Non ambiguous calls.

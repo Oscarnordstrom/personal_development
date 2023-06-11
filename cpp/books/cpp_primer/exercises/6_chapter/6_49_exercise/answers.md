@@ -1,0 +1,2 @@
+- When a function, among a set of overloaded functions, is considered for a call it is referred to as a `candidate function`
+- A viable function matches the arguments of how a specific function was called.

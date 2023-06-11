@@ -1,0 +1,1 @@
+The smaller functions should be inline to save the cost of calling the functions.

@@ -1,0 +1,3 @@
+- (a) Legal
+- (b) Legal.
+- (c) Illegal, top level consts are ignored.
