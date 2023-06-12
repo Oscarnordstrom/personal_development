@@ -1,0 +1,1 @@
+It checks if both data1 and data2 read are successfully.
