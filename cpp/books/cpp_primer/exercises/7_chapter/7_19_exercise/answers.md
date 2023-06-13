@@ -1,0 +1,1 @@
+The members name and address should be private, the functions get_name() and get_address() should be public.

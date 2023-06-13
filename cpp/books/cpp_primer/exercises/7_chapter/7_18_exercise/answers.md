@@ -1,0 +1,1 @@
+Encapsulation refers to containing implementations, which are not meant to be used as part of an interface. This makes it clear for a user which parts of a class is meant to be used as an interface or not.

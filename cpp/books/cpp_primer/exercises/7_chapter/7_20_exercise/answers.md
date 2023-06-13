@@ -1,0 +1,1 @@
+The `friend` keyword is useful when we want encapsulation of class members, by using the `private` key, but also need to give access of private members to certain functions that are not a member of the given class.

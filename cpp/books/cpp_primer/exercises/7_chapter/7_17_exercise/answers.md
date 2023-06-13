@@ -1,0 +1,1 @@
+The only difference is the default level of access. Class defaults to `private` while struct defaults to `public`.

@@ -1,0 +1,1 @@
+There may be any amounts of `private` or `public` specifiers in a class definition. Members after a `public` specifier are those that are thought to be open for programmers to use, similarly those after `private` specifiers are thought to be used internally.
