@@ -1,0 +1,1 @@
+It adds extra code to read, but it can make functions more clear by specifically telling the reader what is being modified.

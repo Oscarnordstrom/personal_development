@@ -1,0 +1,1 @@
+Yes, all members are able to be copied.
