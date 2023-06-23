@@ -1,0 +1,3 @@
+- first_tem: Sales_data(std::istream &is);
+- next: Sales_data(std::string s = "");
+- last: Sales_data(std::string s = "");

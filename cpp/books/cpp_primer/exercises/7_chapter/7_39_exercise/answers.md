@@ -1,0 +1,1 @@
+It is only possible to have one default constructor at a time, they would conflict against each other.
