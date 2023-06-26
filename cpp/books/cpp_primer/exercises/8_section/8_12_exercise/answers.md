@@ -1,0 +1,1 @@
+All the members are able to be default constructed, and we do not have all information until the sstream object is empty. Therefore we fill it iteratively.
