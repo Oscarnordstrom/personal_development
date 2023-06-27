@@ -1,0 +1,3 @@
+- (a) List: since we may need to insert into the middle.
+- (b) Deque: We need fast insertion at back, fast removal in front.
+- (c) Vector: We need fast insertion at the back. 
