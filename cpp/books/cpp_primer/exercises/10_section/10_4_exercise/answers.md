@@ -1,0 +1,1 @@
+The floating point values will be truncated to fit into an integer accumulated variable.

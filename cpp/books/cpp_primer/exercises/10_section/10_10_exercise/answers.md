@@ -1,0 +1,1 @@
+They are designed to work with any type of sequential container. Therefore it cannot make any assumptions of the objects built in size modifying methods.

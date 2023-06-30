@@ -1,0 +1,1 @@
+It would not work because C-style strings do not have a method called .size().

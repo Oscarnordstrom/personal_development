@@ -1,0 +1,1 @@
+`back_inserter` does change the size of the container. The algorithm themselves do not directly to this.
