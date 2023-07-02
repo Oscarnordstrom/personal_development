@@ -1,0 +1,4 @@
+- replace: Replaces values in-place in a container.
+- replace_if: Replaces only if condition is met.
+- replace_copy: Replaces values, and outputs a copy of the modified container.
+- replace_copy_if: Same as `replace_copy`, but only if condition is met.

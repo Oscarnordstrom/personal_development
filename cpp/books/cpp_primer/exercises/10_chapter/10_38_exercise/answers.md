@@ -1,0 +1,5 @@
+- input iterator: `==`, `!=`, `++` `*`(only on rhs), `->` `single-pass`
+- output iterator: `++` `*`(only on lhs) `single-pass`
+- forward iterator: input and output iterator operations multi-pass
+- bidirectional iterator: forward iterator operations `--`
+- random-access iterator: bidirectional iterator operations `<` `<=` `>` `>=` `+` `+=` `-`(iter-integral, iter-iter) `-=` `[]`
