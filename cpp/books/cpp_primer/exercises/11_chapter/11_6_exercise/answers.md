@@ -1,0 +1,1 @@
+A set is useful when we only want one object per key, whereas a list can contain multiples of the same object.
