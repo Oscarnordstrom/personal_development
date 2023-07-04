@@ -1,0 +1,1 @@
+It causes an segmentation fault, since the memory at index `0` is not allocated.

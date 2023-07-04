@@ -1,0 +1,1 @@
+A default string would be added for all words parsed, which would be transformed into an empty string.

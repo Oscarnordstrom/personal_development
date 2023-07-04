@@ -1,0 +1,1 @@
+It adds the key, value pair `pair<0, 1>` to the map.

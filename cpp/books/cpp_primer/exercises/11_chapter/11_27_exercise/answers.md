@@ -1,0 +1,2 @@
+- Count: When we are dealing with a multimap with multiple keys per value.
+- Find: When we are dealing with a normal map with unique keys.

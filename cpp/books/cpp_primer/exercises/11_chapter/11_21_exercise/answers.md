@@ -1,0 +1,1 @@
+Checks if a word is in the map, if not it adds the value and increments it by one. If it finds the word the counting `size_t` is incremented.

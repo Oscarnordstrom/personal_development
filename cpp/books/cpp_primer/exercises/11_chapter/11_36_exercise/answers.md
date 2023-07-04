@@ -1,0 +1,1 @@
+The abbreviation will be replaced by an empty space.
