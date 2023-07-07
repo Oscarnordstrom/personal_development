@@ -1,0 +1,1 @@
+The input type is `size_type`, which is guranteed to be non-negative.

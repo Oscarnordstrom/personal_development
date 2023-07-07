@@ -1,0 +1,2 @@
+- The memory of integer value 100 is leaked, as we copy the pointer address of `q` to `r`.
+- The memory of integer value 100 is dropped, as no pointer references it anymore.

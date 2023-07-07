@@ -1,0 +1,1 @@
+`shared_pointer` does not have the requirement of being the only "pointee" at an object, release is not needed.

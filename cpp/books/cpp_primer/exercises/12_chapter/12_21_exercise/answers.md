@@ -1,0 +1,1 @@
+In my opinion this version is worse, as it is more compact and less clear about the functionality. The optimizer would probably remove the variable declaration `p` anyways. Better to keep the code as readable as possible.

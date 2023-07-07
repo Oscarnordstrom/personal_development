@@ -1,0 +1,1 @@
+The object memory would be freed, while the shared pointer would still have a reference count of 1 or above.

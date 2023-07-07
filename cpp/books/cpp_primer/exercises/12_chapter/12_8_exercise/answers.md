@@ -1,0 +1,1 @@
+It returns whether the pointer is `nullptr` or not. Which causes the program to leak memory as we no longer have access to the allocated integer.
