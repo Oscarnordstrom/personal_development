@@ -1,0 +1,1 @@
+A copy-assignment operator, also known as the assignment operator or simply the = operator, is a special member function in C++ that is used to assign the value of one object to another object of the same class. It is used to copy the state of one object into another object, making a deep copy of the data members.

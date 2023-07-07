@@ -1,0 +1,1 @@
+We would skip an element as postfix returns the unchanged value while prefix returns the new value.

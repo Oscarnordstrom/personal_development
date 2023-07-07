@@ -1,0 +1,1 @@
+If the parameter in function f were const numbered&, the output would not change compared to the previous exercise. The const reference parameter does not affect the behavior of the copy constructor or the generation of serial numbers.

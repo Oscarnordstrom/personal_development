@@ -1,0 +1,1 @@
+Since item1 and item2 are created as local variables within the function fcn, they will be destroyed when the function scope ends. Therefore, the destructors for both item1 and item2 will be called once the function fcn completes its execution.

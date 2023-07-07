@@ -1,0 +1,1 @@
+Yes, the Employee class needs to define its own versions of the copy-control members because it manages a dynamically allocated resource (the name member variable) and needs to ensure proper ownership and lifetime management of that resource when objects are copied or destroyed.

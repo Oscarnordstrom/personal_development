@@ -1,0 +1,1 @@
+It is not necessary to define a custom swap function for the pointer-like version of HasPtr. The default behavior provided by the compiler is already appropriate for managing the pointer and its associated memory.

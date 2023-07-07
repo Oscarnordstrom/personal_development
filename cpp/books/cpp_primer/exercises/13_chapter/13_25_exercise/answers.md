@@ -1,0 +1,2 @@
+
+To define a version of StrBlob that acts like a value, we need to ensure that each instance of the class has its own independent copy of the underlying vector. However, since we want to continue using shared_ptr, we can't simply create deep copies of the vector. Instead, we can make use of the copy constructor and copy-assignment operator to create new instances of the StrBlob class that share ownership of the vector through shared_ptr.

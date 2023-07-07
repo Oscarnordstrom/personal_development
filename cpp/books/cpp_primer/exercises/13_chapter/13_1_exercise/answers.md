@@ -1,0 +1,1 @@
+A copy constructur uses the reference of an already existing object and defines a copy constructor function.

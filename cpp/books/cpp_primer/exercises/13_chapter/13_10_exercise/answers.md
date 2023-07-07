@@ -1,0 +1,1 @@
+The owned members are destroyed, the reference counted data is decremented by one, destroyed if the count reaches 0.
