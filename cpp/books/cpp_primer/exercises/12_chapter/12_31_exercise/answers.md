@@ -1,0 +1,1 @@
+It does no longer gurantee that we have one unique line per word query. This makes the code more error prone.
