@@ -1,0 +1,1 @@
+This would yield an infnite recursion if an lvalue object is called on it. We need to modify the definition of sorted() to handle the case when it is called on an lvalue object. One possible solution is to overload the function for rvalue references (using &&) and implement a separate version of sorted() for that case.

@@ -1,0 +1,1 @@
+During the assignment hp = hp2, the values of ps and i in hp and hp2 are swapped using the assignment operator. This means the pointers ps are swapped, but the actual string data is not moved or copied. This swapping of values allows hp to have the same value as hp2.
