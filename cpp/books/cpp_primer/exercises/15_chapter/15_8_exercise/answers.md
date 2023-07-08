@@ -1,0 +1,1 @@
+A static type is known at compile time, a dynamic type is known at runtime.

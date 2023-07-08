@@ -1,0 +1,3 @@
+- override: This keyword ensures that the function is virtual and is overriding a virtual function from a base class. If it doesn't override a function from a base class, the compiler will throw an error. This is especially helpful in large codebases where you might not know all the details of your class hierarchy, or when you're working on a team and want to make your intent clear.
+
+- final: This keyword ensures that no derived class can override this function. This can be useful when you want to make sure that the functionality you implemented in that method should not be changed by any class that inherits from it.

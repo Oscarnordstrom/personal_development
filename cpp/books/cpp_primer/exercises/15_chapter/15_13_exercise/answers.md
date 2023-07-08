@@ -1,0 +1,1 @@
+This will result in an infinite loop, we need to tell the compiler to use the base version of print to make this class inheritence work correctly.

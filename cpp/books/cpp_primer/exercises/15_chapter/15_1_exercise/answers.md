@@ -1,0 +1,1 @@
+A virtual function is expected to be overriden by derived classes.
