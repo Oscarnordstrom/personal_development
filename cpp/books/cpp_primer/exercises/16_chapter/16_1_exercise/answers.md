@@ -1,0 +1,1 @@
+When a specific type of a template is generated.

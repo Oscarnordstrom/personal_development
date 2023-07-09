@@ -1,0 +1,1 @@
+In C++, iterators are a fundamental part of generic programming. Some iterator types, such as those used with lists and sets, do not support the < operator, but nearly all support the != operator. So, using != allows the code to work with a wider range of data structures.
