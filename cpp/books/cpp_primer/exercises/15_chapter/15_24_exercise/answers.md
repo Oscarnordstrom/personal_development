@@ -1,0 +1,1 @@
+Abstract classes require a virtual destruction, as derived classes will be impacted by undefined behaviour when their destructor is called. It can be a default destructor.

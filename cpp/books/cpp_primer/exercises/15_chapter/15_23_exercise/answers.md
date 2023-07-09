@@ -1,0 +1,1 @@
+I would use `using Base::fcn` to tell the compiler I am using the base class instead of defining my own fcn.
