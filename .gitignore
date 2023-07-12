@@ -10,3 +10,4 @@ rust/playground/
 main
 *.plist
 *.o
+*.pdf
