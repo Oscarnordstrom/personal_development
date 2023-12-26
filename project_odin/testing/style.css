@@ -1,0 +1,27 @@
+.column-container {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 10px;
+    height: 200px;
+    width: max-content;
+    background-color: aqua;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.column .text {
+    margin: 50px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
