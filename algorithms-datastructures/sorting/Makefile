@@ -9,11 +9,15 @@ EXECUTABLE = program.out
 
 # List any additional source files here
 SOURCES = modules/insertion_sort.cpp \
-					modules/print.cpp
+					modules/print.cpp \
+					modules/linear_search.cpp \
+					modules/add_binary_integers.cpp
 
 # List any additional header files here
 HEADERS = modules/insertion_sort.h \
-					modules/print.h
+					modules/print.h \
+					modules/linear_search.h \
+					modules/add_binary_integers.h
 
 # Default target: compile, link, and run the executable
 all: format $(EXECUTABLE)

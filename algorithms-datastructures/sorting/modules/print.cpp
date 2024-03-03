@@ -1,3 +1,4 @@
+#include <cstdint>
 #include <iostream>
 #include <vector>
 
@@ -7,4 +8,4 @@ template <typename T> void print(const std::vector<T> &v, std::ostream &out) {
   }
   out << "\n";
 }
-template void print<long>(const std::vector<long> &, std::ostream &);
+template void print<uint64_t>(const std::vector<uint64_t> &, std::ostream &);

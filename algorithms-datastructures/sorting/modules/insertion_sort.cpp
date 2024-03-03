@@ -1,4 +1,5 @@
 #include "./print.h"
+#include <cstdint>
 #include <iostream>
 #include <memory>
 #include <vector>
@@ -49,6 +50,6 @@ template <typename T> void insertion_sort(std::vector<T> &v, bool decreasing) {
   }
 }
 
-template void insertion_sort<long>(std::vector<long> &v, bool);
-template void _insertion_sort_decreasing<long>(std::vector<long> &v);
-template void _insertion_sort_increasing<long>(std::vector<long> &v);
+template void insertion_sort<uint64_t>(std::vector<uint64_t> &v, bool);
+template void _insertion_sort_decreasing<uint64_t>(std::vector<uint64_t> &v);
+template void _insertion_sort_increasing<uint64_t>(std::vector<uint64_t> &v);
