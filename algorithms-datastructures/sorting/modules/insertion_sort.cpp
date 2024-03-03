@@ -49,7 +49,6 @@ template <typename T> void insertion_sort(std::vector<T> &v, bool decreasing) {
   }
 }
 
-// Explicit instantiations
 template void insertion_sort<long>(std::vector<long> &v, bool);
 template void _insertion_sort_decreasing<long>(std::vector<long> &v);
 template void _insertion_sort_increasing<long>(std::vector<long> &v);
