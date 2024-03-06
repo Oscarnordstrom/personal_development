@@ -11,24 +11,26 @@ EXECUTABLE = program.out
 SOURCES = modules/insertion_sort.cpp \
 					modules/print.cpp \
 					modules/linear_search.cpp \
-					modules/add_binary_integers.cpp
+					modules/add_binary_integers.cpp \
+					modules/selection_sort.cpp
 
 # List any additional header files here
 HEADERS = modules/insertion_sort.h \
 					modules/print.h \
 					modules/linear_search.h \
-					modules/add_binary_integers.h
+					modules/add_binary_integers.h \
+					modules/selection_sort.h
 
 # Default target: compile, link, and run the executable
-all: format $(EXECUTABLE)
+all: $(EXECUTABLE)
 	./$(EXECUTABLE)
 
 $(EXECUTABLE): $(MAIN) $(SOURCES) $(HEADERS)
 	$(CXX) $(CXXFLAGS) $(MAIN) $(SOURCES) -o $(EXECUTABLE)
 
 # Target to run clang-format on source files
-format:
-	clang-format -i $(MAIN) $(SOURCES) $(HEADERS)
+# format:
+# 	clang-format -i $(MAIN) $(SOURCES) $(HEADERS)
 
 # Clean up the compiled files
 clean:
