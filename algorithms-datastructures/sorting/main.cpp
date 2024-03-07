@@ -14,7 +14,7 @@ int main() {
   std::istream_iterator<uint64_t> begin(std::cin), end;
   std::vector<uint64_t> input(begin, end);
 
-  selection_sort(input, false);
+  selection_sort(input, true);
   print(input, std::cout);
 
   return 0;

@@ -6,14 +6,17 @@
 
 template <typename T>
 std::vector<T>::iterator
-_linear_search_le(typename std::vector<T>::iterator beg, typename std::vector<T>::iterator end, T val) {
+_selection_sort_swap_idx_decreasing(typename std::vector<T>::iterator beg,
+                  typename std::vector<T>::iterator end, T val) {
+  typename std::vector<T>::iterator idx = end;
   while (beg != end) {
     if (*beg > val) {
-      return beg;
+      val = *beg;
+      idx = beg;
     }
     beg++;
   }
-  return end;
+  return idx;
 }
 
 template <typename T> void _selection_sort_decreasing(std::vector<T> &v) {
@@ -23,7 +26,7 @@ template <typename T> void _selection_sort_decreasing(std::vector<T> &v) {
 
   for (typename std::vector<T>::iterator it = v.begin(); it != v.end(); ++it) {
     typename std::vector<T>::iterator cmp =
-        _linear_search_le(it + 1, v.end(), *it);
+        _selection_sort_swap_idx_decreasing(it + 1, v.end(), *it);
     if (cmp != v.end()) {
       std::swap(*cmp, *it);
     }
@@ -32,16 +35,19 @@ template <typename T> void _selection_sort_decreasing(std::vector<T> &v) {
 
 template <typename T>
 std::vector<T>::iterator
-_linear_search_ge(typename std::vector<T>::iterator beg,
+_selection_sort_swap_idx_increasing(typename std::vector<T>::iterator beg,
                   typename std::vector<T>::iterator end, T val) {
+  typename std::vector<T>::iterator idx = end;
   while (beg != end) {
     if (*beg < val) {
-      return beg;
+      val = *beg;
+      idx = beg;
     }
     beg++;
   }
-  return end;
+  return idx;
 }
+
 
 template <typename T> void _selection_sort_increasing(std::vector<T> &v) {
   if (v.size() < 2) {
@@ -50,7 +56,9 @@ template <typename T> void _selection_sort_increasing(std::vector<T> &v) {
 
   for (typename std::vector<T>::iterator it = v.begin(); it != v.end(); ++it) {
     typename std::vector<T>::iterator cmp =
-        _linear_search_ge(it + 1, v.end(), *it);
+        _selection_sort_swap_idx_increasing(it + 1, v.end(), *it);
+
+    std::cout << *it << std::endl;
     if (cmp != v.end()) {
       std::swap(*cmp, *it);
     }
@@ -67,8 +75,5 @@ template <typename T> void selection_sort(std::vector<T> &v, bool decreasing) {
 }
 
 template void selection_sort<uint64_t>(std::vector<uint64_t> &v, bool);
-template std::vector<uint64_t>::iterator
-_linear_search_le(std::vector<uint64_t>::iterator beg,
-                  std::vector<uint64_t>::iterator end, uint64_t val);
 template void _selection_sort_decreasing<uint64_t>(std::vector<uint64_t> &v);
 template void _selection_sort_increasing<uint64_t>(std::vector<uint64_t> &v);
