@@ -1,7 +1,4 @@
 #include "./print.h"
-#include <cstdint>
-#include <iostream>
-#include <memory>
 #include <vector>
 
 template <typename T> void _insertion_sort_decreasing(std::vector<T> &v) {

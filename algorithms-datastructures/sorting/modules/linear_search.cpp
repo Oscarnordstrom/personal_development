@@ -1,6 +1,5 @@
 #include "./print.h"
 #include <cstdint>
-#include <iostream>
 #include <vector>
 
 template <typename T>

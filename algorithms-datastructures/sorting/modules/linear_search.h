@@ -2,4 +2,4 @@
 #include <vector>
 
 template <typename T>
-std::vector<T>::size_type *linear_search(std::vector<T> &v, T val);
+typename std::vector<T>::size_type *linear_search(std::vector<T> &v, T val);

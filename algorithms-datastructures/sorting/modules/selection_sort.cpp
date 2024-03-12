@@ -1,13 +1,12 @@
 #include "./print.h"
-#include <cstdint>
 #include <iostream>
-#include <memory>
 #include <vector>
 
 template <typename T>
-std::vector<T>::iterator
+typename std::vector<T>::iterator
 _selection_sort_swap_idx_decreasing(typename std::vector<T>::iterator beg,
-                  typename std::vector<T>::iterator end, T val) {
+                                    typename std::vector<T>::iterator end,
+                                    T val) {
   typename std::vector<T>::iterator idx = end;
   while (beg != end) {
     if (*beg > val) {
@@ -34,9 +33,10 @@ template <typename T> void _selection_sort_decreasing(std::vector<T> &v) {
 }
 
 template <typename T>
-std::vector<T>::iterator
+typename std::vector<T>::iterator
 _selection_sort_swap_idx_increasing(typename std::vector<T>::iterator beg,
-                  typename std::vector<T>::iterator end, T val) {
+                                    typename std::vector<T>::iterator end,
+                                    T val) {
   typename std::vector<T>::iterator idx = end;
   while (beg != end) {
     if (*beg < val) {
@@ -47,7 +47,6 @@ _selection_sort_swap_idx_increasing(typename std::vector<T>::iterator beg,
   }
   return idx;
 }
-
 
 template <typename T> void _selection_sort_increasing(std::vector<T> &v) {
   if (v.size() < 2) {
@@ -64,7 +63,6 @@ template <typename T> void _selection_sort_increasing(std::vector<T> &v) {
     }
   }
 }
-
 
 template <typename T> void selection_sort(std::vector<T> &v, bool decreasing) {
   if (decreasing) {

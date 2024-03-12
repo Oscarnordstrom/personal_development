@@ -1,25 +1,26 @@
-#include <vector>
-#include <iostream>
-#include <cstdint>
 #include "./print.h"
+#include <cstdint>
+#include <iostream>
+#include <vector>
+
+template <typename T> using VecSize = typename std::vector<T>::size_type;
 
 template <typename T>
-using VecSize = typename std::vector<T>::size_type;
+void merge(std::vector<T> &v, VecSize<T> p, VecSize<T> q, VecSize<T> r);
 
+template <typename T> void merge_sort(std::vector<T> &);
 template <typename T>
-void merge(std::vector<T>& v, VecSize<T> p, VecSize<T> q, VecSize<T> r);
+void _merge_sort(std::vector<T> &v, VecSize<T> p, VecSize<T> r);
 
-template <typename T> void merge_sort(std::vector<T>&);
-template <typename T> void _merge_sort(std::vector<T>& v, VecSize<T> p, VecSize<T> r);
-
-template <typename T> void merge_sort(std::vector<T>&v) {
+template <typename T> void merge_sort(std::vector<T> &v) {
   VecSize<T> p = 0;
   VecSize<T> r = v.size() - 1;
 
   _merge_sort(v, p, r);
 }
 
-template <typename T> void _merge_sort(std::vector<T>& v, VecSize<T> p, VecSize<T> r) {
+template <typename T>
+void _merge_sort(std::vector<T> &v, VecSize<T> p, VecSize<T> r) {
   if (p >= r) {
     return;
   }
@@ -31,21 +32,20 @@ template <typename T> void _merge_sort(std::vector<T>& v, VecSize<T> p, VecSize<
 }
 
 template <typename T>
-void merge(std::vector<T>& v, VecSize<T> p, VecSize<T> q, VecSize<T> r)
-{
+void merge(std::vector<T> &v, VecSize<T> p, VecSize<T> q, VecSize<T> r) {
   std::vector<T> left;
-  for (VecSize<T>i = p; i <= q; i++) {
+  for (VecSize<T> i = p; i <= q; i++) {
     left.push_back(v[i]);
   }
 
   std::vector<T> right;
-  for (VecSize<T>j = q + 1; j <= r; j++) {
+  for (VecSize<T> j = q + 1; j <= r; j++) {
     right.push_back(v[j]);
   }
 
-  VecSize<T>i = 0;
-  VecSize<T>j = 0;
-  VecSize<T>k = p;
+  VecSize<T> i = 0;
+  VecSize<T> j = 0;
+  VecSize<T> k = p;
   while (i < left.size() && j < right.size()) {
     if (left[i] < right[j]) {
       v[k] = left[i];
@@ -58,16 +58,16 @@ void merge(std::vector<T>& v, VecSize<T> p, VecSize<T> q, VecSize<T> r)
   }
 
   while (i < left.size()) {
-      v[k] = left[i];
-      i++;
-      k++;
+    v[k] = left[i];
+    i++;
+    k++;
   }
 
   while (j < right.size()) {
-      v[k] = right[j];
-      j++;
-      k++;
+    v[k] = right[j];
+    j++;
+    k++;
   }
 }
 
-template void merge_sort<uint64_t>(std::vector<uint64_t>&);
+template void merge_sort<uint64_t>(std::vector<uint64_t> &);
