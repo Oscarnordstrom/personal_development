@@ -1,12 +1,11 @@
 #include "./print.h"
-#include <cstdint>
 #include <vector>
 
 template <typename T>
-std::vector<T>::size_type *linear_search(std::vector<T> &v, T val) {
+typename std::vector<T>::size_type *linear_search(std::vector<T> &v, T val) {
   for (typename std::vector<T>::size_type i = 0; i < v.size(); i++) {
     if (v[i] == val) {
-      return new uint64_t(i);
+      return new typename std::vector<T>::size_type(i);
     }
   }
   return nullptr;
