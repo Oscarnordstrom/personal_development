@@ -1,5 +1,4 @@
 #include "./print.h"
-#include <iostream>
 #include <vector>
 
 template <typename T>

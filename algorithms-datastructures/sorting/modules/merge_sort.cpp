@@ -1,6 +1,4 @@
 #include "./print.h"
-#include <cstdint>
-#include <iostream>
 #include <vector>
 
 template <typename T> using VecSize = typename std::vector<T>::size_type;
