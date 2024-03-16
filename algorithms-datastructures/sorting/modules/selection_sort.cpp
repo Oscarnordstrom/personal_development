@@ -57,7 +57,6 @@ template <typename T> void _selection_sort_increasing(std::vector<T> &v) {
     typename std::vector<T>::iterator cmp =
         _selection_sort_swap_idx_increasing(it + 1, v.end(), *it);
 
-    std::cout << *it << std::endl;
     if (cmp != v.end()) {
       std::swap(*cmp, *it);
     }
